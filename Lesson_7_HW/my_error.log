@@ -1,0 +1,63 @@
+ERROR:root:division by zero
+ERROR:root:division by zero
+ERROR:root:division by zero
+2023-03-11 10:42:37,832, division by zero
+2023-03-11 10:55:48,494
+2023-03-11 10:56:00,457, division by zero
+2023-03-11 10:57:22,874, ERROR, division by zero
+2023-03-11 10:57:44,345 ERROR division by zero
+2023-03-11 11:01:33,999 ERROR could not convert string to float: 'fdg'
+2023-03-11 11:02:32,280 ERROR division by zero
+2023-03-11 11:02:53,833 ERROR division by zero
+2023-03-11 11:03:49,721 ERROR division by zero
+2023-03-11 11:04:50,115 ERROR string index out of range
+2023-03-11 11:04:50,115 ERROR string index out of range
+2023-03-11 11:04:50,115 ERROR string index out of range
+2023-03-11 11:04:50,115 ERROR string index out of range
+2023-03-11 12:31:35,791 ERROR division by zero
+2023-03-11 12:31:35,791 ERROR list index out of range
+2023-03-11 12:31:35,791 ERROR list index out of range
+2023-03-11 12:31:35,791 ERROR list index out of range
+2023-03-11 12:31:35,791 ERROR list index out of range
+2023-03-11 12:31:35,791 ERROR list index out of range
+2023-03-11 12:39:33,857 ERROR division by zero
+2023-03-11 12:39:33,857 ERROR list index out of range
+2023-03-11 12:39:33,857 ERROR list index out of range
+2023-03-11 12:39:33,857 ERROR list index out of range
+2023-03-11 12:39:33,857 ERROR list index out of range
+2023-03-11 12:39:33,857 ERROR list index out of range
+2023-03-11 12:40:40,755 ERROR division by zero
+2023-03-11 12:40:40,756 ERROR list index out of range
+2023-03-11 12:40:40,756 ERROR list index out of range
+2023-03-11 12:40:40,756 ERROR list index out of range
+2023-03-11 12:40:40,756 ERROR list index out of range
+2023-03-11 12:40:40,756 ERROR list index out of range
+2023-03-11 12:42:54,797 ERROR division by zero
+2023-03-11 12:42:54,797 ERROR list index out of range
+2023-03-11 12:42:54,797 ERROR list index out of range
+2023-03-11 12:42:54,797 ERROR list index out of range
+2023-03-11 12:42:54,797 ERROR list index out of range
+2023-03-11 12:42:54,797 ERROR list index out of range
+2023-03-11 12:43:33,519 ERROR division by zero
+2023-03-11 12:43:33,520 ERROR list index out of range
+2023-03-11 12:43:33,520 ERROR list index out of range
+2023-03-11 12:43:33,520 ERROR list index out of range
+2023-03-11 12:43:33,520 ERROR list index out of range
+2023-03-11 12:43:33,520 ERROR list index out of range
+2023-03-11 12:52:15,993 ERROR unsupported operand type(s) for /: 'str' and 'str'
+2023-03-11 12:52:15,994 ERROR unsupported operand type(s) for /: 'str' and 'str'
+2023-03-11 12:52:15,994 ERROR unsupported operand type(s) for /: 'str' and 'str'
+2023-03-11 12:52:15,994 ERROR division by zero
+2023-03-11 12:52:15,994 ERROR unsupported operand type(s) for /: 'str' and 'str'
+2023-03-11 12:52:15,994 ERROR unsupported operand type(s) for /: 'str' and 'str'
+2023-03-11 12:52:15,994 ERROR list index out of range
+2023-03-11 12:52:15,994 ERROR list index out of range
+2023-03-11 12:52:15,994 ERROR list index out of range
+2023-03-11 12:52:15,994 ERROR list index out of range
+2023-03-11 12:52:15,994 ERROR list index out of range
+2023-03-11 12:55:48,979 ERROR 'non-existent key'
+2023-03-11 13:11:16,824 ERROR list index out of range
+2023-03-11 13:12:46,959 ERROR list index out of range
+2023-03-11 13:14:58,850 ERROR list index out of range
+2023-03-11 13:17:06,552 ERROR invalid literal for int() with base 10: 'asd'
+2023-03-11 13:18:07,938 ERROR invalid literal for int() with base 10: '5.0'
