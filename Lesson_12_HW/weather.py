@@ -25,43 +25,38 @@ Wiki : \033[38m{country['wiki']}\033[0m
 
 
 
-
-
-
-
 url = "https://airbnb13.p.rapidapi.com/search-location"
 
 querystring = {
-	"location": "Paris",
-	"checkin": "2023-09-16",
-	"checkout": "2023-09-17",
-	"adults": "1",
-	"children": "0",
-	"infants": "0",
-	"pets": "0",
-	"page": "1",
-	"currency": "USD"}
+    "location": "Paris",
+    "checkin": "2023-09-16",
+    "checkout": "2023-09-17",
+    "adults": "1",
+    "children": "0",
+    "infants": "0",
+    "pets": "0",
+    "page": "1",
+    "currency": "USD"}
 
 headers = {
-	"X-RapidAPI-Key": "bac79eaabfmsh0b5842b3efa7f3ep174c2cjsne3c3dc6d8f6f",
-	"X-RapidAPI-Host": "airbnb13.p.rapidapi.com"
+    "X-RapidAPI-Key": "bac79eaabfmsh0b5842b3efa7f3ep174c2cjsne3c3dc6d8f6f",
+    "X-RapidAPI-Host": "airbnb13.p.rapidapi.com"
 }
 
 city = input('Введите город для просмотра: ')
 querystring['q'] = city
 response = requests.get(url, headers=headers, params=querystring).json()
 for i in response['results']:
-	address = i['address']
-	type1 = i['type']
-	price = i['price']['total']
-	beds = i['beds']
-	name = i['name']
-	rating = i['rating']
-	amenities = i['previewAmenities']
-	print(f'''
+    address = i['address']
+    type1 = i['type']
+    price = i['price']['total']
+    beds = i['beds']
+    name = i['name']
+    rating = i['rating']
+    amenities = i['previewAmenities']
+    print(f'''
 В городе {city}, расположенный по адресу {address} 
 и названием {name} с рейтингом {rating} и дополнительными удобствами с {amenities}
 есть комнаты с типом {type1} c количеством кроватей {beds}.
 Общая стоимость будет {price}
 	''')
-
